@@ -1,0 +1,33 @@
+from backend.app.models.entities import (
+    Manager,
+    College,
+    Candidate,
+    Resume,
+    CandidateSkill,
+    Project,
+    Internship,
+    Certification,
+    JobRole,
+    JobRequiredSkill,
+    CandidateMatch,
+    Shortlist,
+    Assessment,
+    ManagerOTP,
+)
+
+__all__ = [
+    "Manager",
+    "ManagerOTP",
+    "College",
+    "Candidate",
+    "Resume",
+    "CandidateSkill",
+    "Project",
+    "Internship",
+    "Certification",
+    "JobRole",
+    "JobRequiredSkill",
+    "CandidateMatch",
+    "Shortlist",
+    "Assessment",
+]
